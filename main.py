@@ -1,6 +1,6 @@
 # DNA Toolset/Code Testing
 import data as data
-import labels as labels
+
 
 from DNAProccessing import *
 import random
@@ -24,7 +24,5 @@ print("DNA : ", DNAStr)
 print("Counting Nucleotides : ", fre)
 print("Rate of Nucleotits : ", countNucRate(seq))
 createPieChart(data,labels)
-
-
-
-
+print("First DNA: ", DNAStr)
+print("DNA Replaced :", replaceNuc(DNAStr,"A","T"))

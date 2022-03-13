@@ -48,4 +48,12 @@ def createPieChart(data,labels):
     plt.figure(figsize=(5, 5))
     plt.pie(data, labels=labels, autopct="%.1f%%")
     plt.show()
+    
+
+# A function will replace a certain nucleotide type with a other
+
+def replaceNuc(seq,old,new):
+    replaced = seq.replace(old,new)
+    return replaced
+    
 
