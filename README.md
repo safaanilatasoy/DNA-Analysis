@@ -7,7 +7,7 @@
  2) Checking the generated random nucleotide sequence is valid.
  3) The percentages of nucleotides in the sequence
  4) Piechart representation of percentage of nucleotide ratios
- 5) Substitution process between determined nucleotides
+ 5) Exchange process between determined nucleotides
 
 <h4> Output of this Program: </h4>
 
